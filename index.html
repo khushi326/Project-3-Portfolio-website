@@ -1,0 +1,273 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<style>
+    div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.img-circle {
+        border-radius: 50%;
+      }
+
+      body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+</style>
+<body style="background-color: rgb(196, 196, 192)"> 
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Sanket Bodake</h1>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-project">My project</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="home-page" id="Home">
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <img src="WhatsApp Image 2024-09-13 at 12.21.50 PM.jpeg" class="img-squar" alt="Cinque Terre" width="200" height="200">
+        <h1>Hi, I'm Khushi yadav</h1>
+        <p>BCA student </p>
+      </div>
+      <!-------profile----->
+      
+      <!------end--->
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content" width="300"height="200">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          
+          <p>
+            I’m Khushi yadav, BCA second-year student at Sage university with a strong passion 
+             for technology and a drive to excel in the field of computer applications.
+             My studies have equipped me with skills in programming (e.g., Java,CSS,Python), web development, and database management.
+             I’ve applied these skills through various projects, enhancing my problem-solving abilities and technical expertise.
+             Outside of academics, I actively participate in tech clubs and coding competitions, continually expanding my knowledge and network.
+             My goal is to pursue a career in web technology, where I can leverage my skills to contribute to innovative solutions and grow as
+             a tech professional.
+          </p>
+          <div class="work-arrow">
+    
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>python</span>
+                    </div>
+                    <div class="progress-line"><span class="bootstrap "></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C Programming</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--------project-details------->
+<section class="my-project" id="my-project">
+<div style="background-color: gray"> 
+<h2 style="color: rgb(1, 8, 14); text-align: center; margin-bottom: 20px; font-size: 30 px;">My Project</h2>
+
+    <div style="margin-left: 15px;">
+        <a href="about" target="_blank">
+            <img src="./WhatsApp Image 2024-09-12 at 5.30.26 PM.jpeg" alt="Lights" style="width:32%;height:250px;margin-right: 10px;">
+          </a>
+         
+          <a href="about" target="_blank">
+            <img src="img.jpeg" alt="Lights" style="width:32%;height:250px;margin-right: 10px;">
+            
+          </a>
+          <a href="about" target="_blank">
+            <img src="WhatsApp Image 2024-09-12 at 5.30.23 PM.jpeg" alt="Lights" style="width:32%;height:250px;margin-right: 10px;">
+          </a>
+    </div>
+    </section>
+    <u><h2>Technology Details for Our Webpage:-</h2><br></u>
+    <h1>Frontend Technologies:</h1><br>
+    <p>We have used HTML, CSS technology for making a webpages in a simple and easy-to-understand way</p><br>
+    <b>HTML:</b>
+    <p>HTML creates and organizes the content of the page. It defines elements like headings, paragraphs, images, and links.</p><br>
+    <b>CSS:</b>
+    <p>CSS changes the colors, fonts, spacing, and layout of HTML elements. It makes the webpage look visually appealing and can adapt the design to different devices.</p>
+   </div>
+
+<!---------project-detail-end---->
+       
+  <!----contact---->
+  
+  <div style="background-color: #777;height: 80px;">
+    <section class="contact-me" id="contact-me">
+  <h2 style="color: rgb(1, 8, 14); text-align: center; margin-top: 50px; font-size: 50 px;">My Contact</h2>
+    </div>
+  <div class="contact-form" style="margin-top: 50px; background-color: grey;">
+    <h2>Contact Us</h2>
+    <form action="/submit_form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+<!--footer-->
+<div style="background-color:gray; margin-top: 50px; font-size: 50 px;">
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>My Portfolio</h3>
+                <p>
+                  Vijay Nagar <br>
+                  Indore pincode: 452010<br><br>
+                  <strong>Phone:</strong> +9005264896<br>
+                  <strong>Email:</strong> khushi.yadav032006@gamil.com<br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#book-a-table">Reservation</a></li>
+              </ul>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+<!------->
+</section>
+  <!------contact end---->
+  <!-- JAVASCRIPT -->
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
